@@ -22,7 +22,7 @@ const Movie = async () => {
   return (
     <section className={styles.movieSection}>
       <div className={styles.container}>
-        <h1>Series & Movie</h1>
+        <h1>Home /&gt; Series & Movie</h1>
         <div className={styles.card_section}>
           {main_data?.map((curElem) => {
             return <MovieCard key={curElem?.id} {...curElem} />;

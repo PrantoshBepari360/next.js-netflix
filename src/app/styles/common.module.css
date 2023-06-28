@@ -22,7 +22,8 @@
 
 .movieSection h1 {
   text-align: center;
-  margin-bottom: 3.2rem;
+  margin-top: 3.2rem;
+  font-size: 4.2rem;
 }
 
 .movie_title {
@@ -40,8 +41,8 @@
   gap: 4.8rem;
   justify-content: space-between;
   align-items: center;
-  /*background-color: #90caf9;*/
   flex-wrap: wrap;
+  padding: 6rem 0;
 }
 
 .card {
